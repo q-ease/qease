@@ -49,7 +49,7 @@ padding: 20px;
     width: 100%;
     object-fit: cover;
     object-position: center;
-    background: #0000000a;
+    background: #f9f7f3;
     border-radius: 50%;
     padding: 3px 5px;
     /* box-shadow: 10px 5px 10px #00000012; */
