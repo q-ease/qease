@@ -103,7 +103,6 @@ export const ExploreButton = styled.div`
         width: 20px;
     }
     }
-}
 `
 
 export const ImageContainer = styled.div`
