@@ -28,8 +28,7 @@ export const NavContainer = styled.section`
 `
 
 export const NavWrapper = styled.section`
-    width: 90%;
-    margin: 0rem auto;
+    margin: 0rem 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
