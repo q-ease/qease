@@ -9,7 +9,7 @@ export const SideContainer = styled.div<{ showSidebar: boolean }>`
     top: 79px;
     bottom: 0;
     background-color: #f9f7f3;
-    transform: ${(props) => (props.showSidebar ? "translateX(-100%)" : "translateX(0)")};
+    transform: ${(props) => (!props.showSidebar ? "translateX(-100%)" : "translateX(0)")};
     @media only screen and (max-width:560px) {
         width: 100%
     }
