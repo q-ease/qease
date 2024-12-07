@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
     background: #f9f7f3;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
     @media only screen and (max-width:680px) {
         padding-bottom: 5rem;
     }
@@ -103,7 +103,6 @@ export const ExploreButton = styled.div`
         width: 20px;
     }
     }
-}
 `
 
 export const ImageContainer = styled.div`
