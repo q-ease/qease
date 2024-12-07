@@ -1,13 +1,16 @@
 import { useState } from "react"
 import { SideContainer, SideUnOrderedList, SideWrapper, SideList } from "./style"
 import { navlist } from "../data/navlist";
+import { SidebarProps } from "./type";
 
-const SideBar = () => {
+const SideBar = (props: SidebarProps) => {
 
-    const [showPopUp, setShowPopUp] = useState(false);
+      const { showSidebar } = props;
+    
+
     return (
         <>
-            <SideContainer showPopup={showPopUp}>
+            <SideContainer showSidebar={showSidebar}>
                 <SideWrapper>
                     <SideUnOrderedList >
                         {navlist.map((item, index) => {
