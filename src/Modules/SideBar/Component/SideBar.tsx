@@ -1,12 +1,11 @@
-import { useState } from "react"
 import { SideContainer, SideUnOrderedList, SideWrapper, SideList } from "./style"
 import { navlist } from "../data/navlist";
 import { SidebarProps } from "./type";
 
 const SideBar = (props: SidebarProps) => {
 
-      const { showSidebar } = props;
-    
+    const { showSidebar } = props;
+
 
     return (
         <>
@@ -15,9 +14,9 @@ const SideBar = (props: SidebarProps) => {
                     <SideUnOrderedList >
                         {navlist.map((item, index) => {
                             return (
-                            <SideList key={index}>
-                                {item.icon} {item.tittle}
-                            </SideList>)
+                                <SideList key={index}>
+                                    {item.icon} {item.tittle}
+                                </SideList>)
                         })
                         }
                     </SideUnOrderedList>

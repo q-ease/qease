@@ -39,18 +39,19 @@ padding: 20px;
     border-radius: 50%;
 }
   .menuIcon{
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #f9f7f3;
+    border-radius: 50%;
+    padding: 6px ;
   }
   .menuIcon img{
     width: 100%;
     object-fit: cover;
     object-position: center;
-    background: #f9f7f3;
-    border-radius: 50%;
     padding: 3px 5px;
     /* box-shadow: 10px 5px 10px #00000012; */
   } 
@@ -60,8 +61,15 @@ padding: 20px;
     width: max-content;
     color: #31344bb0;
   }
+  @media only screen and (max-width: 680px) {
+    padding: 10px 0;
+    .menuIcon{
+        width: 40px;
+        height: 40px;
+   }
+  }
   @media only screen and (max-width: 480px) {
-    gap: 2rem;
+    gap: 1rem;
     margin: 1rem 0;
   }
 `
@@ -76,7 +84,7 @@ gap: 1rem;
 .iconFilter{
     padding: 8px;
     border-radius: 50%;
-    background-color: #FF9900;
+    background-color: #ff5200;
     display: flex;
     align-items: center;
     justify-content: center;
