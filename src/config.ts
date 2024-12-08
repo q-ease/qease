@@ -7,6 +7,7 @@ import mainCourse from './assets/filters/mainCourse.png'
 import seaFood from './assets/filters/seaFood.png'
 import Pasta from './assets/filters/Pasta.png'
 import pizza from './assets/filters/pizza.png'
+import burger from './assets/filters/burger.png';
 interface Filter {
     title: string;
     imageIcon: string;
@@ -18,6 +19,7 @@ const filters: Filter[] = [
     { title: "Appetizers", imageIcon: Appetizers },
     { title: "Fast Food", imageIcon: fastFood },
     { title: "Desserts", imageIcon: desert },
+    { title: "Burgers", imageIcon: burger },
     { title: "Beverages", imageIcon: beverages },
     { title: "Seafood", imageIcon: seaFood },
     { title: "Pasta", imageIcon: Pasta },
@@ -28,7 +30,6 @@ const filters: Filter[] = [
     { title: "Sides", imageIcon: allFilterIcon },
     { title: "Kids' Menu", imageIcon: allFilterIcon },
     { title: "Wraps", imageIcon: allFilterIcon },
-    { title: "Burgers", imageIcon: allFilterIcon },
     { title: "Sandwiches", imageIcon: allFilterIcon },
     { title: "Combos", imageIcon: allFilterIcon },
     { title: "Specials", imageIcon: allFilterIcon },
