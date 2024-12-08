@@ -68,7 +68,7 @@ padding: 20px;
   }
   }
   @media only screen and (max-width: 480px) {
-    gap: 2rem;
+    gap: 1rem;
     margin: 1rem 0;
   }
 `

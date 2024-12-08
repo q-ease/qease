@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+:root {
+  ---primaryBGColor: "#f8f6f2";
+}
+
 a {
   text-decoration: none;
   font-family: "Poppins", serif;
@@ -23,14 +27,17 @@ input {
 
 h1 {
   font-size: 24px;
+  color: #00021ec9;
 }
 
 h2 {
   font-size: 21px;
+  color: #00021ec9;
 }
 
 h3 {
   font-size: 18px;
+  color: #00021ec9;
 }
 
 p,
