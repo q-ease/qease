@@ -62,10 +62,11 @@ padding: 20px;
     color: #31344bb0;
   }
   @media only screen and (max-width: 680px) {
+    padding: 10px 0;
     .menuIcon{
         width: 40px;
         height: 40px;
-  }
+   }
   }
   @media only screen and (max-width: 480px) {
     gap: 1rem;
