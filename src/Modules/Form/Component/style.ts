@@ -28,7 +28,6 @@ export const FormContent = styled.div`
         width: 80%;
         padding: 30px 20px;
     }
-}
 `
 
 export const FormHead = styled.div`
