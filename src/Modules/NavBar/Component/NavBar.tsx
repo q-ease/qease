@@ -2,6 +2,8 @@ import { NavContainer, NavWrapper, NavRight, NavLeft } from "./style"
 import { FaShoppingCart } from "react-icons/fa";
 import { FaRegBell } from "react-icons/fa6";
 import { NavProps } from "./type";
+import Form from "../../Form/Component/Form";
+
 
 
 const NavBar = (props: NavProps) => {
@@ -28,6 +30,7 @@ const NavBar = (props: NavProps) => {
                             <FaShoppingCart />
                         </div>
                     </NavRight>
+                    <Form formType={"login"}/>
                 </NavWrapper>
             </NavContainer>
         </>
